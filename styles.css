@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.sayt-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 120px;
+    background: #1B274A;
+}
+
+.sayt-adress {
+    color: #FFA14D;
+    text-decoration: none;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.icon {
+    color: white;
+}
+
+.sayt-phone-number{
+    border-right: 1px solid white;
+    border-width: 80%;
+    padding-right: 5px;
+}
+.zapisatsiya{
+    display: flex;
+    align-items: center;
+    background-color:  #FF7800;
+    padding: 10px;
+}
+.navigator{
+    min-height: 100px;
+    border-bottom: 1px solid rgba(194, 169, 169, 0.425);
+}
+.rasm-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+.rasm-title img{
+    margin-right: 10px;
+}
+.title h2{
+    margin: 0;
+    color: #1B274A;
+}
+.title span{
+    color: #1B274A;
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-list a{
+    color: #1B274A;
+    font-weight: bold;
+}
